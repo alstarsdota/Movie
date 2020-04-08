@@ -7,16 +7,16 @@
     tools:context=".MainActivity">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycle"
+        android:id="@+id/recyclerview"
         android:layout_width="match_parent"
         android:layout_alignParentTop="true"
         android:layout_height="475dp" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/navigationbar"
+        android:id="@+id/navigationBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/recycle"
+        android:layout_below="@+id/recyclerview"
         app:itemBackground="@color/colorPrimary"
         app:itemIconTint="@drawable/selector"
         app:itemTextColor="@drawable/selector"
